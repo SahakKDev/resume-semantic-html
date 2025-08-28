@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resume of Sahak Keshishyan</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -24,9 +25,7 @@
 
     <section>
       <h2>Sahak Keshishyan</h2>
-      <p>
-        Coder, UX Designer, and Instructor
-      </p>
+      <p>Coder, UX Designer, and Instructor</p>
       <dl>
         <dt>Website</dt>
         <dd>
@@ -34,9 +33,7 @@
         </dd>
         <dt>Phone</dt>
         <dd>555-555-1111</dd>
-        <dt>
-          Twitter
-        </dt>
+        <dt>Twitter</dt>
         <dd>
           <a href="https://twitter.com/SahakKeshishyan" target="_blank">@sahakkeshishyan</a>
         </dd>
@@ -52,15 +49,15 @@
         <h2>About Me</h2>
       </header>
       <p>
-        Hi! I'm Sahak Keshishyan and I'm <em>happy</em> to have you as a student in my
-        courses.
-      <aside>
-        <small>Don't imitate, understand!</small>
-      </aside>
+        Hi! I'm Sahak Keshishyan and I'm <em>happy</em> to have you as a
+        student in my courses.
       </p>
-      <footer>
-        Contact me
-      </footer>
+      <aside>
+        <p>
+          <small>Don't imitate, understand!</small>
+        </p>
+      </aside>
+      <footer>Contact me</footer>
     </article>
 
     <section id="services">
@@ -74,54 +71,24 @@
 
     <section id="skills">
       <h2>Skills</h2>
-      <p>
-        HTML
-        Markup your content with semantic HTML.
-      </p>
-      <p>
-        CSS
-        Layout your content visually for multiple devices.
-      </p>
-      <p>
-        JavaScript
-        Make your content more interactive, and build web applications.
-      </p>
+
+      <ul class="resume-list">
+        <li>HTML Markup your content with semantic HTML.</li>
+        <li>CSS Layout your content visually for multiple devices.</li>
+        <li>
+          JavaScript Make your content more interactive, and build web
+          applications.
+        </li>
+      </ul>
     </section>
 
     <section id="workhistory">
       <h2>Work History</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Role</th>
-            <th>Company</th>
-            <th>Years</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>UX/UI Designer</td>
-            <td>XYZ Corp</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>Web Developer</td>
-            <td>ABC Corp</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>Carpet Cleaner</td>
-            <td>123 Inc.</td>
-            <td>2</td>
-          </tr>
-        </tbody>
-        <tfoot>
-          <tr>
-            <td colspan="2">Total</td>
-            <td>10</td>
-          </tr>
-        </tfoot>
-      </table>
+      <ol class="resume-list">
+        <li>UX/UI Designer XYZ Corp 3 years</li>
+        <li>Web Developer ABC Corp 5</li>
+        <li>Carpet Cleaner 123 Inc. 2</li>
+      </ol>
     </section>
 
     <!-- Needs pictures -->
@@ -178,20 +145,20 @@
           <legend>Best Contact Time</legend>
           <p>
             <label for="contacttime1">Morning</label>
-            <input type="radio" id="contacttime1" name="contacttime" value="morning">
+            <input type="radio" id="contacttime1" name="contacttime" value="morning" />
           </p>
           <p>
             <label for="contacttime2">Afternoon</label>
-            <input type="radio" id="contacttime2" name="contacttime" value="afternoon">
+            <input type="radio" id="contacttime2" name="contacttime" value="afternoon" />
           </p>
           <p>
             <label for="contacttime3">Evening</label>
-            <input type="radio" id="contacttime3" name="contacttime" value="evning">
+            <input type="radio" id="contacttime3" name="contacttime" value="evning" />
           </p>
 
           <p>
             <label for="asap">ASAP</label>
-            <input type="checkbox" id="asap" name="asap">
+            <input type="checkbox" id="asap" name="asap" />
           </p>
         </fieldset>
 
