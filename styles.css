@@ -1,13 +1,37 @@
-/* :is(ul.resume-list, ol) li {
-  outline: 1px solid red;
-} */
-
-/* ***** */
-
-/* a:where(:not(:hover)) {
-  text-decoration: none;
+* {
+  box-sizing: border-box;
 }
 
-nav a {
-  text-decoration: underline;
-} */
+body {
+  font-size: 16px;
+}
+
+main {
+  max-width: clamp(700px, 50%, 900px);
+  padding: 0 20px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  margin: 0 auto;
+}
+
+section {
+  font-size: 2em;
+}
+
+li {
+  font-size: 1.25rem;
+}
+
+blockquote {
+  border: 2px solid black;
+}
+
+.resume-fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-fieldset legend {
+  padding: 0;
+}
