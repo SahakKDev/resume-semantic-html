@@ -10,11 +10,13 @@ nav {
   position: sticky;
   top: 0;
   background-color: white;
+  text-align: center;
 }
 
 nav ul {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
+  padding: 0;
 }
 
 nav ul li {
@@ -31,10 +33,14 @@ main {
   margin: 0 auto;
 }
 
+.flex-header,
+.motto {
+  flex-basis: 100%;
+}
+
 #aboutme {
   background-color: black;
   color: white;
-  display: flow-root;
   display: flex;
   flex-wrap: wrap;
 }
@@ -65,6 +71,7 @@ li {
 
 blockquote.featured {
   order: -1;
+  flex: 1 auto;
 }
 
 .resume-fieldset {
